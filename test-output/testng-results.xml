@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+    <line>
+      <![CDATA[Browser is launched and url is passed ]]>
+    </line>
+    <line>
+      <![CDATA[Title of the page is fetched]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="31780" started-at="2017-05-24T08:56:39Z" finished-at="2017-05-24T08:57:11Z">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="31780" started-at="2017-05-24T08:56:39Z" finished-at="2017-05-24T08:57:11Z">
+      <class name="testcase.verifyhomepage">
+        <test-method status="PASS" signature="before()[pri:0, instance:testcase.verifyhomepage@59f99ea]" name="before" is-config="true" duration-ms="12799" started-at="2017-05-24T14:26:39Z" finished-at="2017-05-24T14:26:52Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser is launched and url is passed ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="verify()[pri:0, instance:testcase.verifyhomepage@59f99ea]" name="verify" duration-ms="63" started-at="2017-05-24T14:26:52Z" finished-at="2017-05-24T14:26:52Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Title of the page is fetched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verify -->
+        <test-method status="PASS" signature="after()[pri:0, instance:testcase.verifyhomepage@59f99ea]" name="after" is-config="true" duration-ms="1971" started-at="2017-05-24T14:26:52Z" finished-at="2017-05-24T14:26:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- testcase.verifyhomepage -->
+      <class name="testcase.Login">
+        <test-method status="PASS" signature="before()[pri:0, instance:testcase.Login@27efef64]" name="before" is-config="true" duration-ms="12978" started-at="2017-05-24T14:26:54Z" finished-at="2017-05-24T14:27:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="login()[pri:0, instance:testcase.Login@27efef64]" name="login" duration-ms="743" started-at="2017-05-24T14:27:07Z" finished-at="2017-05-24T14:27:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="passcredentials(java.lang.String, java.lang.String)[pri:1, instance:testcase.Login@27efef64]" name="passcredentials" duration-ms="1649" started-at="2017-05-24T14:27:08Z" data-provider="loginarray" finished-at="2017-05-24T14:27:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[saurav.wwindia@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[saurav123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- passcredentials -->
+        <test-method status="PASS" signature="logintoacc()[pri:2, instance:testcase.Login@27efef64]" name="logintoacc" duration-ms="938" started-at="2017-05-24T14:27:10Z" finished-at="2017-05-24T14:27:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintoacc -->
+      </class> <!-- testcase.Login -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
+</testng-results>
